@@ -1,0 +1,4 @@
+Mode,Avg Topic HR,Avg Doc HR,Avg Jenis Match,Avg Latency
+hybrid,0.9444,0.8667,0.8667,0.1277
+semantic,0.9556,0.8667,0.8000,0.1146
+bm25,0.8889,0.8000,0.8833,0.1195

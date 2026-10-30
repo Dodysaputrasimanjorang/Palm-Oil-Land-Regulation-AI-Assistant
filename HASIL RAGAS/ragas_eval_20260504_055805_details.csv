@@ -1,0 +1,6 @@
+question_id,question,latency,faithfulness,answer_relevancy,context_precision,context_recall
+1,Apakah boleh membuka lahan sawit di kawasan hutan lindung?,11.5889,0.0,0.9327,0.8875,1.0
+2,Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?,21.2107,0.0,0.9321,1.0,0.0
+3,Bagaimana prosedur permohonan Hak Guna Usaha untuk perkebunan sawit?,12.2512,0.0,0.0,0.0,0.0
+4,Apa saja prinsip dan kriteria ISPO?,8.7814,0.25,0.0,0.0,0.0
+5,Berapa luas maksimum lahan perkebunan sawit yang bisa dimiliki satu perusahaan?,6.9821,0.0,0.0,0.125,1.0

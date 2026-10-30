@@ -1,0 +1,58 @@
+{
+  "summary": {
+    "num_questions": 5,
+    "avg_latency": 14.3397,
+    "faithfulness": 0.4361,
+    "answer_relevancy": 0.196,
+    "context_precision": 0.4292,
+    "context_recall": 0.8
+  },
+  "details": [
+    {
+      "question_id": 1,
+      "question": "Apakah boleh membuka lahan sawit di kawasan hutan lindung?",
+      "latency": 14.903,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9798,
+      "context_precision": 0.72,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 2,
+      "question": "Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?",
+      "latency": 13.8494,
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 3,
+      "question": "Apa saja prinsip dan kriteria ISPO?",
+      "latency": 19.3218,
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 4,
+      "question": "Berapa luas maksimum lahan perkebunan sawit yang bisa dimiliki satu perusahaan?",
+      "latency": 13.5267,
+      "faithfulness": 0.4444,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 5,
+      "question": "Bagaimana kewajiban perusahaan perkebunan terhadap plasma/petani?",
+      "latency": 10.0978,
+      "faithfulness": 0.2,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2262,
+      "context_recall": 1.0
+    }
+  ],
+  "generated_at": "2026-05-12T17:18:10"
+}

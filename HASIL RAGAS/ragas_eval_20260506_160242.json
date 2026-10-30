@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "num_questions": 7,
+    "avg_latency": 34.9632,
+    "faithfulness": 0.5164,
+    "answer_relevancy": 0.4106,
+    "context_precision": 0.2823,
+    "context_recall": 0.7143
+  },
+  "details": [
+    {
+      "question_id": 1,
+      "question": "Apakah boleh membuka lahan sawit di kawasan hutan lindung?",
+      "latency": 81.8365,
+      "faithfulness": 0.1429,
+      "answer_relevancy": 0.9758,
+      "context_precision": 0.75,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 2,
+      "question": "Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?",
+      "latency": 41.011,
+      "faithfulness": 0.8571,
+      "answer_relevancy": 0.9348,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 3,
+      "question": "Apa saja prinsip dan kriteria ISPO?",
+      "latency": 19.2723,
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 4,
+      "question": "Berapa luas maksimum lahan perkebunan sawit yang bisa dimiliki satu perusahaan?",
+      "latency": 9.9627,
+      "faithfulness": 0.5556,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 5,
+      "question": "Bagaimana kewajiban perusahaan perkebunan terhadap plasma/petani?",
+      "latency": 13.2164,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2262,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 6,
+      "question": "Apa saja persyaratan AMDAL untuk usaha perkebunan?",
+      "latency": 61.6913,
+      "faithfulness": 0.5263,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 7,
+      "question": "Bagaimana mekanisme dana BPDPKS untuk peremajaan sawit rakyat?",
+      "latency": 17.7522,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9637,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    }
+  ],
+  "generated_at": "2026-05-06T16:02:42"
+}

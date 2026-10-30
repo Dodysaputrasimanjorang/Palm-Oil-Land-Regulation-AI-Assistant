@@ -1,0 +1,11 @@
+question_id,question,latency,faithfulness,answer_relevancy,context_precision,context_recall
+1,Apakah boleh membuka lahan sawit di kawasan hutan lindung?,25.0633,0.0,0.0,0.2421,1.0
+2,Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?,6.2644,0.75,0.9578,1.0,1.0
+3,Apa saja prinsip dan kriteria ISPO?,6.0634,0.4,0.0,0.1,1.0
+4,Berapa luas maksimum lahan perkebunan sawit yang bisa dimiliki satu perusahaan?,3.781,0.3333,0.9929,0.2421,1.0
+5,Bagaimana kewajiban perusahaan perkebunan terhadap plasma/petani?,15.8978,0.25,0.9205,0.2,0.0
+6,Apa saja persyaratan AMDAL untuk usaha perkebunan?,8.192,1.0,1.0,0.826,1.0
+7,Bagaimana mekanisme dana BPDPKS untuk peremajaan sawit rakyat?,7.8225,1.0,1.0,0.0,0.0
+8,Apa itu kawasan budidaya dan kawasan lindung dalam tata ruang?,10.285,0.8235,0.953,0.906,1.0
+9,Bagaimana aturan penggunaan kawasan hutan untuk kegiatan di luar kehutanan?,11.37,0.4,0.9884,1.0,1.0
+10,Apakah perusahaan sawit wajib menyediakan sarana dan prasarana?,16.8338,1.0,0.0,1.0,0.0

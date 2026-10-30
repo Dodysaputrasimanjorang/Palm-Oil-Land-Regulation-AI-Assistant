@@ -1,0 +1,21 @@
+question_id,question,latency,faithfulness,answer_relevancy,context_precision,context_recall
+1,Apakah boleh membuka lahan sawit di kawasan hutan lindung?,14.6074,0.8333,0.0,0.3152,1.0
+2,Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?,19.426,0.25,1.0,1.0,1.0
+3,Apa saja prinsip dan kriteria ISPO?,9.6931,0.2857,0.0,0.1,1.0
+4,Berapa luas maksimum lahan perkebunan sawit yang bisa dimiliki satu perusahaan?,6.2613,0.3333,0.978,0.2421,1.0
+5,Bagaimana kewajiban perusahaan perkebunan terhadap plasma/petani?,16.4578,0.6,0.9566,1.0,0.0
+6,Apa saja persyaratan AMDAL untuk usaha perkebunan?,18.3863,0.5,0.8645,0.9094,1.0
+7,Bagaimana mekanisme dana BPDPKS untuk peremajaan sawit rakyat?,14.7948,0.9091,0.9847,0.0,0.0
+8,Apa itu kawasan budidaya dan kawasan lindung dalam tata ruang?,16.2318,0.375,0.9488,0.7886,1.0
+9,Bagaimana aturan penggunaan kawasan hutan untuk kegiatan di luar kehutanan?,6.8015,0.4444,0.9897,1.0,1.0
+10,Apakah perusahaan sawit wajib menyediakan sarana dan prasarana?,16.0494,0.1429,0.9884,1.0,0.0
+11,Bagaimana aturan tentang benih kelapa sawit yang digunakan di perkebunan?,4.7687,0.6154,0.9513,0.5,0.0
+12,Apa saja larangan dalam usaha perkebunan menurut UU Perkebunan?,21.8201,0.4444,0.9362,0.2429,1.0
+13,Bagaimana perizinan berusaha di sektor perkebunan menurut UU Cipta Kerja?,8.4208,1.0,0.9778,0.35,1.0
+14,Bagaimana aturan peremajaan tanaman perkebunan kelapa sawit?,9.906,0.8,0.9857,1.0,1.0
+15,Apa ketentuan tentang penatagunaan tanah di Indonesia?,8.1753,0.875,0.9385,0.8339,1.0
+16,Apa saja hak pekebun menurut UU Perkebunan?,21.1532,0.75,0.911,0.0,0.0
+17,Bagaimana aturan tentang konservasi tanah dan air di perkebunan?,7.2489,1.0,0.8774,0.8333,1.0
+18,Apa saja jenis hutan berdasarkan fungsinya menurut UU Kehutanan?,7.3837,1.0,0.9347,0.7556,1.0
+19,Bagaimana prosedur izin perubahan peruntukan kawasan hutan?,8.4066,0.5556,0.9916,0.3333,0.0
+20,Apa aturan mengenai integrasi sapi-sawit?,32.606,0.8462,0.9431,0.5845,1.0

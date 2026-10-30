@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "num_questions": 2,
+    "avg_latency": 27.7595,
+    "faithfulness": NaN,
+    "answer_relevancy": 0.0,
+    "context_precision": NaN,
+    "context_recall": NaN
+  },
+  "details": [
+    {
+      "question_id": 1,
+      "question": "Apakah boleh membuka lahan sawit di kawasan hutan lindung?",
+      "latency": 28.6491,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0,
+      "context_precision": NaN,
+      "context_recall": NaN
+    },
+    {
+      "question_id": 2,
+      "question": "Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?",
+      "latency": 26.8699,
+      "faithfulness": NaN,
+      "answer_relevancy": 0.0,
+      "context_precision": NaN,
+      "context_recall": NaN
+    }
+  ],
+  "generated_at": "2026-04-18T17:40:17"
+}

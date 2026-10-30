@@ -1,0 +1,3 @@
+question_id,question,latency,faithfulness,answer_relevancy,context_precision,context_recall
+1,Apakah boleh membuka lahan sawit di kawasan hutan lindung?,28.6491,nan,0.0,nan,nan
+2,Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?,26.8699,nan,0.0,nan,nan

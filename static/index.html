@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid RAG — Regulasi Lahan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span class="sidebar-logo">⚖️</span>
+            <h2> Regulasi<small>Hybrid RAG • Hukum Pertanahan</small></h2>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Pengaturan Retrieval</h3>
+            <label>
+                Jumlah Dokumen (Top-K)
+                <input type="range" id="topK" min="3" max="10" value="10">
+                <span id="topKVal" class="range-val">10</span>
+            </label>
+            <label class="checkbox-label">
+                <input type="checkbox" id="autoFilter" checked>
+                Metadata Filtering Otomatis
+            </label>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Info Sistem</h3>
+            <div class="stat-row"><span>Total Chunks</span><span id="statChunks">—</span></div>
+            <div class="stat-row"><span>Dokumen Regulasi</span><span id="statDocs">—</span></div>
+            <div class="stat-row"><span>Total Pasal</span><span id="statPasal">—</span></div>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Tech Stack</h3>
+            <ul class="tech-list">
+                <li>Embedding: multilingual-e5-small</li>
+                <li>Vector DB: Qdrant</li>
+                <li>Retrieval: Hybrid (BM25 + Semantic)</li>
+                <li>LLM: OpenRouter (deepseek/deepseek-v4-flash)</li>
+                <li>Frontend: HTML, CSS, JavaScript</li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Evaluasi RAGAS</h3>
+            <label>
+                Jumlah Sampel
+                <input type="number" id="ragasSampleSize" min="1" max="30" value="5" class="small-input">
+            </label>
+            <button id="runRagasBtn" class="sidebar-action-btn">Jalankan Evaluasi</button>
+            <div id="ragasStatus" class="ragas-status">Belum dijalankan</div>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+        <!-- Toggle sidebar on mobile -->
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">☰</button>
+
+        <header class="hero">
+            <div class="hero-badge"><span class="dot"></span> Sistem Pencarian Hukum</div>
+            <h1><br><span class="gradient-text">Regulasi perkebunan sawit Indonesia</span></h1>
+            <p>Konsultasi hukum regulasi perkebunan sawit melalui sistem tanya-jawab berbasis Hybrid RAG dengan metadata filtering</p>
+        </header>
+
+        <!-- SEARCH BOX -->
+        <section class="search-section">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="questionInput" placeholder="Tanyakan seputar regulasi pertanahan & perkebunan..." autocomplete="off">
+                <button id="askBtn" title="Tanya">AJUKAN</button>
+            </div>
+        </section>
+
+        <!-- CONTOH PERTANYAAN -->
+        <section class="examples" id="examples">
+            <h3>Contoh Pertanyaan Hukum</h3>
+            <div class="example-grid">
+                <button class="example-btn">Apakah boleh membuka lahan sawit di kawasan hutan?</button>
+                <button class="example-btn">Apa sanksi jika melanggar izin usaha perkebunan?</button>
+                <button class="example-btn">Bagaimana prosedur sertifikasi ISPO kelapa sawit?</button>
+                <button class="example-btn">Apa saja syarat untuk mendapatkan HGU?</button>
+                <button class="example-btn">Bagaimana aturan peremajaan tanaman kelapa sawit?</button>
+                <button class="example-btn">Apa kewajiban perusahaan perkebunan terhadap lingkungan?</button>
+                <button class="example-btn">Bagaimana aturan kemitraan perusahaan dengan petani plasma?</button>
+                <button class="example-btn">Apa saja jenis izin untuk usaha perkebunan sawit?</button>
+            </div>
+        </section>
+
+        <!-- LOADING -->
+        <section class="loading-section hidden" id="loading">
+            <div class="spinner"></div>
+            <p>Menelusuri pasal-pasal regulasi dan menyusun jawaban hukum...</p>
+        </section>
+
+        <!-- RESULT -->
+        <section class="result-section hidden" id="result">
+            <!-- METRICS -->
+            <div class="metrics-row" id="metrics"></div>
+
+            <!-- FILTER BADGES -->
+            <div class="filter-badges hidden" id="filterBadges"></div>
+
+            <!-- ANSWER -->
+            <div class="answer-card">
+                <h2>⚖️ Pendapat Hukum</h2>
+                <div id="answerText" class="answer-text"></div>
+            </div>
+
+            <!-- SOURCES -->
+            <div class="sources-card">
+                <h2>� Dasar Hukum</h2>
+                <div id="sourcesList"></div>
+            </div>
+
+            <!-- SCORE TABLE -->
+            <details class="score-details">
+                <summary>Detail Skor Retrieval</summary>
+                <div class="table-wrap">
+                    <table id="scoreTable">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Dokumen</th>
+                                <th>Pasal</th>
+                                <th>Retrieval Score</th>
+                                <th>Semantic</th>
+                                <th>BM25 Score</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </details>
+        </section>
+
+        <section class="result-section hidden" id="ragasResult">
+            <div class="answer-card">
+                <h2>📊 Hasil Evaluasi RAGAS</h2>
+                <div class="metrics-row" id="ragasMetrics"></div>
+                <div id="ragasMeta" class="ragas-meta"></div>
+            </div>
+            <details class="score-details">
+                <summary>Detail Skor Per Pertanyaan</summary>
+                <div class="table-wrap">
+                    <table id="ragasTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Pertanyaan</th>
+                                <th>Faithfulness</th>
+                                <th>Answer Relevancy</th>
+                                <th>Context Precision</th>
+                                <th>Context Recall</th>
+                                <th>Latency (s)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ragasTableBody"></tbody>
+                    </table>
+                </div>
+            </details>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            Hybrid RAG — Sistem Tanya-Jawab Regulasi Perkebunan Sawit Indonesia
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

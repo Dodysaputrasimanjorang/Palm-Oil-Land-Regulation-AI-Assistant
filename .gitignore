@@ -1,0 +1,26 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Build
+dist/
+build/
+
+# Qdrant Database
+qdrant_db/
+qdrant_db_reindexed/
+
+# Chroma Database
+chroma_db/
+
+# Temporary files
+*.log
+.DS_Store

@@ -1,0 +1,27 @@
+question_id,question,latency,faithfulness,answer_relevancy,context_precision,context_recall
+1,Apakah boleh membuka lahan sawit di kawasan hutan lindung?,23.4874,0.0,0.946,0.72,1.0
+2,Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?,6.1218,0.2222,0.9782,1.0,1.0
+3,Apa saja prinsip dan kriteria ISPO?,45.5539,0.75,0.0,0.0,0.0
+4,Berapa luas maksimum lahan perkebunan sawit yang bisa dimiliki satu perusahaan?,3.7255,0.1667,0.0,0.2,1.0
+5,Bagaimana kewajiban perusahaan perkebunan terhadap plasma/petani?,20.4229,0.7333,0.0,0.2262,1.0
+6,Apa saja persyaratan AMDAL untuk usaha perkebunan?,15.7514,0.8095,0.0,0.3667,1.0
+7,Bagaimana mekanisme dana BPDPKS untuk peremajaan sawit rakyat?,7.3097,0.8,0.954,0.0,0.0
+8,Apa itu kawasan budidaya dan kawasan lindung dalam tata ruang?,36.7631,0.375,0.975,0.8917,1.0
+9,Bagaimana aturan penggunaan kawasan hutan untuk kegiatan di luar kehutanan?,8.7937,0.4516,0.9918,0.8875,0.0
+10,Apakah perusahaan sawit wajib menyediakan sarana dan prasarana?,11.785,0.6,0.0,0.8524,0.0
+11,Bagaimana aturan tentang benih kelapa sawit yang digunakan di perkebunan?,12.1853,0.75,0.8946,0.3877,0.0
+12,Apa saja larangan dalam usaha perkebunan menurut UU Perkebunan?,14.8242,0.8,0.9171,0.0,0.0
+13,Bagaimana perizinan berusaha di sektor perkebunan menurut UU Cipta Kerja?,15.5251,1.0,0.0,1.0,1.0
+14,Bagaimana aturan peremajaan tanaman perkebunan kelapa sawit?,21.9935,1.0,0.9774,0.8929,1.0
+15,Apa ketentuan tentang penatagunaan tanah di Indonesia?,19.7159,0.913,0.9713,0.975,1.0
+16,Apa saja hak pekebun menurut UU Perkebunan?,8.7725,0.4444,0.0,0.0,0.0
+17,Bagaimana aturan tentang konservasi tanah dan air di perkebunan?,6.8679,0.4444,0.0,0.273,1.0
+18,Apa saja jenis hutan berdasarkan fungsinya menurut UU Kehutanan?,13.2274,0.6364,0.9542,0.7996,1.0
+19,Bagaimana prosedur izin perubahan peruntukan kawasan hutan?,14.4352,1.0,0.0,0.3929,0.0
+20,Apa aturan mengenai integrasi sapi-sawit?,37.662,0.6667,0.924,0.7022,1.0
+21,Peraturan tentang penyelesaian sengketa lahan perkebunan,12.1394,0.3333,0.0,0.125,1.0
+22,Bagaimana aturan mengenai moratorium izin baru di hutan primer?,6.7427,0.6667,0.0,1.0,1.0
+23,Apa kewajiban Pemerintah Daerah dalam pengawasan perkebunan?,9.2605,0.0,0.9423,0.8333,1.0
+24,Bagaimana aturan tentang pencegahan kebakaran hutan dan lahan?,8.0687,0.1429,0.0,0.2262,0.0
+25,Apa syarat teknis untuk pembukaan lahan perkebunan baru?,18.7503,0.125,0.0,0.2262,0.0
+26,Bagaimana aturan tentang pengolahan hasil perkebunan kelapa sawit?,11.6117,0.8182,0.9335,0.0,0.0

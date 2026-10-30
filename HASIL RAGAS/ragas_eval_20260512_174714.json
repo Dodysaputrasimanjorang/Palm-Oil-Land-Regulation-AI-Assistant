@@ -1,0 +1,247 @@
+{
+  "summary": {
+    "num_questions": 26,
+    "avg_latency": 15.8268,
+    "faithfulness": 0.5634,
+    "answer_relevancy": 0.4754,
+    "context_precision": 0.4992,
+    "context_recall": 0.5769
+  },
+  "details": [
+    {
+      "question_id": 1,
+      "question": "Apakah boleh membuka lahan sawit di kawasan hutan lindung?",
+      "latency": 23.4874,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.946,
+      "context_precision": 0.72,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 2,
+      "question": "Apa sanksi pidana bagi pelaku pembakaran lahan perkebunan?",
+      "latency": 6.1218,
+      "faithfulness": 0.2222,
+      "answer_relevancy": 0.9782,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 3,
+      "question": "Apa saja prinsip dan kriteria ISPO?",
+      "latency": 45.5539,
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 4,
+      "question": "Berapa luas maksimum lahan perkebunan sawit yang bisa dimiliki satu perusahaan?",
+      "latency": 3.7255,
+      "faithfulness": 0.1667,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 5,
+      "question": "Bagaimana kewajiban perusahaan perkebunan terhadap plasma/petani?",
+      "latency": 20.4229,
+      "faithfulness": 0.7333,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2262,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 6,
+      "question": "Apa saja persyaratan AMDAL untuk usaha perkebunan?",
+      "latency": 15.7514,
+      "faithfulness": 0.8095,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.3667,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 7,
+      "question": "Bagaimana mekanisme dana BPDPKS untuk peremajaan sawit rakyat?",
+      "latency": 7.3097,
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.954,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 8,
+      "question": "Apa itu kawasan budidaya dan kawasan lindung dalam tata ruang?",
+      "latency": 36.7631,
+      "faithfulness": 0.375,
+      "answer_relevancy": 0.975,
+      "context_precision": 0.8917,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 9,
+      "question": "Bagaimana aturan penggunaan kawasan hutan untuk kegiatan di luar kehutanan?",
+      "latency": 8.7937,
+      "faithfulness": 0.4516,
+      "answer_relevancy": 0.9918,
+      "context_precision": 0.8875,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 10,
+      "question": "Apakah perusahaan sawit wajib menyediakan sarana dan prasarana?",
+      "latency": 11.785,
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.8524,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 11,
+      "question": "Bagaimana aturan tentang benih kelapa sawit yang digunakan di perkebunan?",
+      "latency": 12.1853,
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.8946,
+      "context_precision": 0.3877,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 12,
+      "question": "Apa saja larangan dalam usaha perkebunan menurut UU Perkebunan?",
+      "latency": 14.8242,
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.9171,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 13,
+      "question": "Bagaimana perizinan berusaha di sektor perkebunan menurut UU Cipta Kerja?",
+      "latency": 15.5251,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 14,
+      "question": "Bagaimana aturan peremajaan tanaman perkebunan kelapa sawit?",
+      "latency": 21.9935,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9774,
+      "context_precision": 0.8929,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 15,
+      "question": "Apa ketentuan tentang penatagunaan tanah di Indonesia?",
+      "latency": 19.7159,
+      "faithfulness": 0.913,
+      "answer_relevancy": 0.9713,
+      "context_precision": 0.975,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 16,
+      "question": "Apa saja hak pekebun menurut UU Perkebunan?",
+      "latency": 8.7725,
+      "faithfulness": 0.4444,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 17,
+      "question": "Bagaimana aturan tentang konservasi tanah dan air di perkebunan?",
+      "latency": 6.8679,
+      "faithfulness": 0.4444,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.273,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 18,
+      "question": "Apa saja jenis hutan berdasarkan fungsinya menurut UU Kehutanan?",
+      "latency": 13.2274,
+      "faithfulness": 0.6364,
+      "answer_relevancy": 0.9542,
+      "context_precision": 0.7996,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 19,
+      "question": "Bagaimana prosedur izin perubahan peruntukan kawasan hutan?",
+      "latency": 14.4352,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.3929,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 20,
+      "question": "Apa aturan mengenai integrasi sapi-sawit?",
+      "latency": 37.662,
+      "faithfulness": 0.6667,
+      "answer_relevancy": 0.924,
+      "context_precision": 0.7022,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 21,
+      "question": "Peraturan tentang penyelesaian sengketa lahan perkebunan",
+      "latency": 12.1394,
+      "faithfulness": 0.3333,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.125,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 22,
+      "question": "Bagaimana aturan mengenai moratorium izin baru di hutan primer?",
+      "latency": 6.7427,
+      "faithfulness": 0.6667,
+      "answer_relevancy": 0.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 23,
+      "question": "Apa kewajiban Pemerintah Daerah dalam pengawasan perkebunan?",
+      "latency": 9.2605,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9423,
+      "context_precision": 0.8333,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": 24,
+      "question": "Bagaimana aturan tentang pencegahan kebakaran hutan dan lahan?",
+      "latency": 8.0687,
+      "faithfulness": 0.1429,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2262,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 25,
+      "question": "Apa syarat teknis untuk pembukaan lahan perkebunan baru?",
+      "latency": 18.7503,
+      "faithfulness": 0.125,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2262,
+      "context_recall": 0.0
+    },
+    {
+      "question_id": 26,
+      "question": "Bagaimana aturan tentang pengolahan hasil perkebunan kelapa sawit?",
+      "latency": 11.6117,
+      "faithfulness": 0.8182,
+      "answer_relevancy": 0.9335,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    }
+  ],
+  "generated_at": "2026-05-12T17:47:14"
+}

@@ -1,0 +1,31 @@
+# PDF Processing
+pdfplumber>=0.11.0
+PyMuPDF>=1.23.0
+
+# Embedding
+sentence-transformers==3.4.1
+
+# Vector DB
+qdrant-client==1.13.2
+
+# BM25 keyword search
+rank-bm25==0.2.2
+
+# LLM via OpenRouter API
+requests==2.32.3
+
+# Frontend
+streamlit==1.41.1
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.67.1
+numpy==2.2.3
+pandas==2.2.3
+scikit-learn==1.6.1
+
+# RAGAS evaluation
+ragas==0.2.12
+datasets==3.2.0
+langchain-openai==0.3.12
+langchain-huggingface==0.1.2
